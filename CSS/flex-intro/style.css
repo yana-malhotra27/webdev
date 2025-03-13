@@ -1,0 +1,51 @@
+.container {
+    margin: 40px;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    /*display: inline-flex;*/
+    background-color: bisque;
+
+    flex-wrap: wrap;
+    /* flex-wrap: nowrap; */ /* default */
+    /* flex-wrap: wrap-reverse; */
+    flex-direction: row; /* default */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+
+    /* how items within a row are aligned in order */
+    /*every row alignment along main axis*/
+    justify-content: center; 
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: space-around; */  
+
+    /* align items within the row perpendicularly */
+    /* cross axis */
+    align-items: flex-end;
+    /* align-items: center; */
+    /* align-items: flex-start; */
+    /* align-items: baseline; */
+    /* align-items: space-around; */ /*default*/
+    /* align-items: space-between; */
+
+    /* how all the rows together are aligned */
+    align-content: center;
+    /* align-content: flex-start; */
+    /* align-content: flex-end; */
+    /* align-content: space-around; */
+    /* align-content: space-between; */
+}
+
+.item {
+    border: dotted maroon 2px;
+    height: 50px;
+    width: 50px;
+    background-color: lightseagreen;
+    font-size: 20pt;
+    color: white;
+
+    text-align: center;
+    line-height: 50px;
+}
