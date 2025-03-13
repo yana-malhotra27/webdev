@@ -1,0 +1,16 @@
+h2 + p {
+    font-weight: bold;
+    color: blue;
+}
+
+h2 ~ p {
+    color: red;
+}
+
+section > p{
+    background-color: yellow;
+} 
+
+section p {
+    font-family: jokerman;
+}

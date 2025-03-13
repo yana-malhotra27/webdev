@@ -1,0 +1,17 @@
+#para1 {
+    font-size: 30px;
+}
+
+#para2 {
+    font-family: monospace;
+}
+
+#para3 {
+    font-style: oblique;
+    font-weight: bold;
+}
+
+#para4 {
+    word-spacing: 10px;
+    letter-spacing: 20px;
+}
