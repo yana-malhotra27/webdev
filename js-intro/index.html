@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        console.log('World')
+        alert('Hey')
+    </script>
+    <script async defer src="script.js">
+        console.log('from ext script') //not executed cuz src written so body not executed
+    </script>
+</head>
+<body>
+    <h1>JS Intro</h1>
+    <p>JS is a programming language</p>
+    <script type="text/javascript">
+        console.log('Hello')
+        alert('Hey')
+    </script>
+</body>
+</html>
