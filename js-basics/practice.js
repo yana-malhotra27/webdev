@@ -13,6 +13,7 @@ c=20; //global variable
 var k=30; //function scope
 let a=50; //block scope
 
+//function declaration
 function f(){
     let e=3
     if(e==3){
@@ -25,6 +26,10 @@ function f(){
 }
 console.log(f) //reference error
 
+//function expression not hoist
+var k= function(){
+    console.log('function')
+}
 for(let i=0;i<3;i++){
     console.log(d[i]);
 }
