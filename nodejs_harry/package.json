@@ -1,0 +1,21 @@
+{
+  "name": "nodejs_harry_learning",
+  "version": "1.0.0",
+  "description": "my learning",
+  "keywords": [
+    "web",
+    "dev"
+  ],
+  "license": "ISC",
+  "author": "yana",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "slugify": "^1.6.6"
+  }
+}
